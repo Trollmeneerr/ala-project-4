@@ -5,14 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
+    <link rel="stylesheet" href="css/stylesheet.css" >
 </head>
 <body>
     <section id="Navbar">
-        <div id="Logo"><img scr="images/Logo.png"></div>
-        <div id="Nav"></div>
-        <div id="Presentatie"></div>
-        <div id="Contact"></div>
-        <div id="Team"></div>
+        <ul>
+        <li><div id="Logo"><img src="images/Logo.png" alt="logo"></div></li>
+        <li>
+        <div class="dropdown">
+        <button class="btn">Dropdown</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+        </div>
+        </li>
+        <li>
+        <div id="Presentatie">
+            <button class="btn"><a href="#Presentatie">Presentatie</a></button>
+        </div>
+        </li>
+        <li>
+        <div id="Contact">
+            <button class="btn"><a href="#Contact">Contact</a></button>
+        </div>
+        </li>
+        <li>
+        <div id="Team">
+            <button class="btn"><a href="#Team">Team</a></button>
+        </div>
+        </li>
+        </ul>
     </section>
 </body>
 </html>
