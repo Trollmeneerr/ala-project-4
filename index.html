@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
     <link rel="stylesheet" href="css/stylesheet.css" >
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="Navbar">
+    <header id="Navbar">
         <ul>
         <li><div id="Logo">
             <img src="images/Logo.png" alt="logo">
@@ -18,7 +19,7 @@
         <div class="dropdown">
         <button class="btn">Dropdown</button>
             <div class="dropdown-content">
-              <a href="#">Link 1</a>
+              <a href="#plus">Link 1</a>
               <a href="#">Link 2</a>
               <a href="#">Link 3</a>
             </div>
@@ -40,15 +41,21 @@
         </div>
         </li>
         </ul>
-    </section>
+    </header>
     <section id="plus">
         <div id="content">
         <h1>Simpele rekenoperaties</h1> 
-        <p> Twee getallen optellen:         <input type="number" id="+inputOne"> + <input type="number" id='+inputTwo'> <button id="plusBtn">=</button> <span id="+uitkomst"> </span>.<br/><br/>
-            Twee getallen aftrekken:        <input type="number" id="-inputOne"> - <input type="number" id='-inputTwo'> <button id="minBtn">=</button> <span id="-uitkomst"> </span>.<br/><br/>
-            Twee getallen vermenigvuldigen: <input type="number" id="*inputOne"> x <input type="number" id='*inputTwo'> <button id="keerBtn">=</button> <span id="*uitkomst"> </span>.<br/><br/>
-            Twee getallen delen:            <input type="number" id="/inputOne"> / <input type="number" id='/inputTwo'> <button id="deelBtn">=</button> <span id="/uitkomst"> </span>.<br/><br/>
-            </div>   
+        <p> Twee getallen Optellen:         <input type="number" id="+inputOne"> + <input type="number" id='+inputTwo'> <button id="plusBtn">=</button> <span id="+uitkomst"> </span>.<br/><br/>
+            Twee getallen Aftrekken:        <input type="number" id="-inputOne"> - <input type="number" id='-inputTwo'> <button id="minBtn">=</button> <span id="-uitkomst"> </span>.<br/><br/>
+            Twee getallen Vermenigvuldigen: <input type="number" id="*inputOne"> x <input type="number" id='*inputTwo'> <button id="keerBtn">=</button> <span id="*uitkomst"> </span>.<br/><br/>
+            Twee getallen Delen:            <input type="number" id="/inputOne"> / <input type="number" id='/inputTwo'> <button id="deelBtn">=</button> <span id="/uitkomst"> </span>.<br/><br/>
+
+            Twee getallen Machtsverheffen:   <input type="number" id="^inputOne"> ^ <input type="number" id='^inputTwo'> <button id="^Btn">=</button> <span id="^uitkomst"> </span>.<br/><br/>
+            Twee getallen Percentage:        <input type="number" id="%inputOne"> % <input type="number" id='%inputTwo'> <button id="%Btn">=</button> <span id="procentUitkomst"> </span>.<br/><br/>
+            Twee getallen Restwaarde:        <input type="number" id="*inputOne">  <input type="number" id='*inputTwo'> <button id="keerBtn">=</button> <span id="*uitkomst"> </span>.<br/><br/>
+            Twee getallen Even OF Oneven:    <input type="number" id="/inputOne">  <input type="number" id='/inputTwo'> <button id="deelBtn">=</button> <span id="/uitkomst"> </span>.<br/><br/>
+        
+        </div>   
     </section>
 </body>
 <script src="scripts/jshome.js"></script>
