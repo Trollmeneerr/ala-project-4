@@ -85,6 +85,7 @@ function plus(){
 			let uitkomst = "Het getal is oneven!";
 			document.getElementById("euitkomst").innerHTML = uitkomst;
 		}
+		document.getElementById("euitkomst").innerHTML = uitkomst;
 		}
 		document.getElementById("eBtn").addEventListener("click", even);
 console.log()

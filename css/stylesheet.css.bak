@@ -84,3 +84,6 @@ body{
 	  max-width: 60px;
 	    
   }
+  input.hover{
+	  background: gray;
+  }
