@@ -87,4 +87,48 @@ function plus(){
 		}
 		}
 		document.getElementById("eBtn").addEventListener("click", even);
-console.log()
+
+        function tafels(){
+        let num1 = document.getElementById("tinputOne").value;
+        let num2 = document.getElementById("tinputTwo").value;   
+        let inputOne = parseFloat(num1);
+        let inputTwo = parseFloat(num2);
+        document.getElementById("tuitkomst").innerHTML = "";
+        let counter = 0;
+        while(counter <= inputOne){
+            document.getElementById('tuitkomst').innerHTML += counter * inputTwo + "<br>";
+            counter++;
+        }
+        }
+        document.getElementById("tBtn").addEventListener("click", tafels);
+    
+
+    function macht(){
+    let num1 = document.getElementById("minputOne").value;
+    let num2 = document.getElementById("minputTwo").value;   
+    let inputOne = parseFloat(num1);
+    let inputTwo = parseFloat(num2);
+    document.getElementById("muitkomst").innerHTML = "";
+    let counter = 0;
+    while(counter <= inputTwo){
+        document.getElementById('muitkomst').innerHTML += inputOne ** counter + "<br>";
+        counter++;
+    }
+    }
+    document.getElementById("mBtn").addEventListener("click", macht);
+    
+    function breuken(){
+        let num = document.getElementById("binput").value;  
+        let input = parseFloat(num);
+        document.getElementById("buitkomst").innerHTML = "";
+        let counter = 2;
+        while(counter <= input){
+            document.getElementById('buitkomst').innerHTML += "1/" + counter + "=" + 1 / counter + "<br>";
+            counter++;
+        }
+        }
+        document.getElementById("bBtn").addEventListener("click", breuken);
+    
+
+
+    console.log()
