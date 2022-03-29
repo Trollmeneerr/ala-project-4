@@ -128,7 +128,18 @@ function plus(){
         }
         }
         document.getElementById("bBtn").addEventListener("click", breuken);
-    
+        
+        function Kwadraten(){
+            let num = document.getElementById("kinput").value;  
+            let input = parseFloat(num);
+            document.getElementById("kuitkomst").innerHTML = "";
+            let counter = 1;
+            while(counter <= input){
+                document.getElementById('kuitkomst').innerHTML +=  counter * counter + "<br>";
+                counter++;
+            }
+            }
+            document.getElementById("kBtn").addEventListener("click", Kwadraten);
 
 
     console.log()
