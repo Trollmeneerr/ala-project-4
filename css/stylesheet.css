@@ -48,17 +48,25 @@ body{
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #535353;}
 
+  #Welcome #content{
+    background-color: #292929;
+    text-align: center;
+  }
+
   a {
     text-decoration: none;
     color: white;
   }
 
   ul {
+    
+   
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #ff6a6a;
+ 
   }
   
   li{
@@ -82,5 +90,4 @@ body{
   }
   input{
 	  max-width: 60px;
-	    
   }
