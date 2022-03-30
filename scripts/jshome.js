@@ -89,12 +89,12 @@ function plus(){
 		document.getElementById("eBtn").addEventListener("click", even);
 
         function tafels(){
-        let num1 = document.getElementById("tinputOne").value;
-        let num2 = document.getElementById("tinputTwo").value;   
+        let num1 = document.getElementById("tinputTwo").value;
+        let num2 = document.getElementById("tinputOne").value;   
         let inputOne = parseFloat(num1);
         let inputTwo = parseFloat(num2);
         document.getElementById("tuitkomst").innerHTML = "";
-        let counter = 0;
+        let counter = 1;
         while(counter <= inputOne){
             document.getElementById('tuitkomst').innerHTML += counter * inputTwo + "<br>";
             counter++;
