@@ -142,4 +142,7 @@ function plus(){
             document.getElementById("kBtn").addEventListener("click", Kwadraten);
 
 
+
+            
+
     console.log()
