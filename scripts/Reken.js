@@ -141,7 +141,21 @@ function plus(){
             }
             document.getElementById("kBtn").addEventListener("click", Kwadraten);
 
-
+            function fabic(){
+                let numA = 0;
+                let numB = 1;
+                let numC;
+                let inputOne = document.getElementById("finput").value;
+                document.getElementById("fuitkomst").innerHTML = "0 <br> 1 <br> 1 <br> 2 <br>";
+                while(numC <= inputOne){
+                    document.getElementById('fuitkomst').innerHTML += numC + "<br>";
+                    let numA = numB;
+                    let numB = numC;
+                    let numC = numA + numB;
+                    counter++;
+                }
+                }   
+                document.getElementById("fBtn").addEventListener("click", fabic);
 
             
 
