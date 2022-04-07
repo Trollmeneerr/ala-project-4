@@ -141,21 +141,19 @@ function plus(){
             }
             document.getElementById("kBtn").addEventListener("click", Kwadraten);
 
-            function fabic(){
-                let numA = 0;
-                let numB = 1;
-                let numC;
+            function fibonacci(){
+                let num1 = 0;
+                let num2 = 1;
+                let num3 = 1;
                 let inputOne = document.getElementById("finput").value;
-                document.getElementById("fuitkomst").innerHTML = "0 <br> 1 <br> 1 <br> 2 <br>";
-                while(numC <= inputOne){
-                    document.getElementById('fuitkomst').innerHTML += numC + "<br>";
-                    let numA = numB;
-                    let numB = numC;
-                    let numC = numA + numB;
-                    counter++;
-                }
+                document.getElementById("fuitkomst").innerHTML = "0 <br> 1 <br>";
+                while(num3 >= inputOne){
+                    document.getElementById("fuitkomst").innerHTML += num3 + "<br>";
+                    num1 = num2, num2 = num3, num3 = num1 + num2;
+                    
+                };
                 }   
-                document.getElementById("fBtn").addEventListener("click", fabic);
+                document.getElementById("fBtn").addEventListener("click", fibonacci);
 
             
 
