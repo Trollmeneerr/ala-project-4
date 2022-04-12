@@ -15,8 +15,9 @@ body{
     margin: 25px 0px 0px 150px;
     border-radius: 10px;
   }
-  #Logo {
-    margin: 20px;
+  #Logo img {
+    margin: 5px;
+    height: 110px;
   }
   
 
