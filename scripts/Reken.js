@@ -148,8 +148,10 @@ function plus(){
                 let inputOne = document.getElementById("finput").value;
                 document.getElementById("fuitkomst").innerHTML = "0 <br> 1 <br>";
                 while(num3 >= inputOne){
-                    document.getElementById("fuitkomst").innerHTML += num3 + "<br>";
-                    num1 = num2, num2 = num3, num3 = num1 + num2;
+                    document.getElementById("fuitkomst").innerHTML += num3 + "<br> <br>";
+                    num1 = num2;
+                    num2 = num3;
+                    num3 = num1 + num2;
                     
                 };
                 }   
