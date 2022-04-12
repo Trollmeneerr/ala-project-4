@@ -19,7 +19,6 @@ body{
     margin: 20px;
   }
   
-  
 
   #Welcome #content{
     background-color: #292929;
@@ -65,12 +64,12 @@ body{
 	  max-width: 60px;
   }
   #info #content {
+    padding: 10px;
     display: grid;
     grid-template-columns: auto auto;
     font-size: large;
   }
   footer {
-    
     width: 100%;
     left: 0;
     bottom: 0;
