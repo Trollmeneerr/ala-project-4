@@ -1,53 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MatheMate</title>
-    <link rel="stylesheet" href="css/stylesheet.css" >
-    <link rel="stylesheet" href="css/presentatie.css" >
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css.black.css">
-	<link rel="stylesheet" href="css.monokai.css">
-    
-</head>
-<body>
-    <header id="Navbar">
-        <ul>
-        <li>
-        <div id="Logo">
-            <img src="images/Logo.png" alt="logo">
-        </div>
-        </li>
-        <li> 
-            <button class="btn"><a href="index.html">Home</a></button>
-        </li>
-        <li>
-        <div id="Rekenoperaties">
-            <button class="btn"><a href="Reken.html">rekenoperaties</a></button>
-        </div>
-        </li>
-        <li>
-        <div id="Contact">
-            <button class="btn"><a href="contact.html">Contact</a></button>
-        </div>
-        </li>
-        <li>
-        <div id="Team">
-            <button class="btn"><a href="team.html">AboutUs</a></button>
-        </div>
-        </li>
-        </ul>
-</header>
-    <section>
-        <div id="content">
-        
-        </div>
-    </section>
-    <footer>
-           <p>Copyright &copy; MathMate.com</p>
-    </footer>
-    <script src="scripts/presentatie.js"></script>
-    </body>
-    </html>
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="css/stylesheet.css">
+
+		 <!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		
+		<header id="Navbar">
+			<ul>
+			<li><div id="Logo"><img src="images/Logo.png" alt="logo" id="img"></div></li>
+			<li><button class="btn"><a href="index.html">home</a></button></li>
+			<li><button class="btn"><a href="Reken.html">Rekenoperaties</a></button></li>
+			<li><button class="btn"><a href="contact.html">Contact</a></button></li>
+			<li><button class="btn"><a href="team.html">AboutUs</a></button></li>
+			</ul>
+		</header>
+		
+			<div class="reveal">
+				<div class="slides">
+					<section><img src="images/Screenshot (54).png"></section>
+					<section>Slide 2</section>
+					<section>Slide 1</section>
+					<section>Slide 2</section>
+					<section>Slide 1</section>
+					<section>Slide 2</section>
+				</div>
+			
+		</div>
+			<style>.reveal{margin-top: -100px;}</style>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
