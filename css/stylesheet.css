@@ -145,7 +145,9 @@ body{
         padding: 10px;
         display: grid;
         grid-template-columns: 45% 55%;
-        font-size: large;
+      }
+      #info #content p{
+        font-size: 20px;
       }
       footer {
         width: 100%;
