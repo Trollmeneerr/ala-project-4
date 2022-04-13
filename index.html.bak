@@ -50,7 +50,7 @@
                 </p>
             </div>
             <div class="grid-item">
-                <img id="landscape"src="images/rekenmachine.jpg" alt="rekenmachine" width="100%">
+                <img src="images/rekenmachine.jpg" alt="rekenmachine" width="100%">
 				<img id="portrait" src="images/rekenmachine2.jpg" alt="rekenmachine" width="100%">
         </div>
         </div>
